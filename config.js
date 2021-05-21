@@ -10,5 +10,4 @@ module.exports = {
   git: "https://github.com/MakerAsia/kb32-ft/",
   image: "/static/display.png",
   version: "1.1.1",
-  recommended: "ilovekbide",
 };
