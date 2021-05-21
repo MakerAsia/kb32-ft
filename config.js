@@ -7,7 +7,7 @@ module.exports = {
   author: "Maker Asia",
   website: "http://www.kidbright.club",
   email: "info@makerasia.com",
-  git: "https://github.com/MakerAsia/kb32-ft/tree/main/kb32-ft-drone-kbide/",
+  git: "https://github.com/MakerAsia/kb32-ft/",
   image: "/static/display.png",
   version: "1.1.1",
   recommended: "ilovekbide",

@@ -2,7 +2,7 @@
 
 สั่งซื้อได้ที่ : [https://www.aiiotshop.com/p/114](https://www.aiiotshop.com/p/114)
 
-{% embed url="https://youtu.be/L3860Z2SvAM" %}
+[https://youtu.be/L3860Z2SvAM]
 
 ![](.gitbook/assets/image%20%28146%29.png)
 
