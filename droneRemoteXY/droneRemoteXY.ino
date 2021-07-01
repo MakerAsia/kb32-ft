@@ -143,10 +143,10 @@ float lpf(float alfa, float new_data, float prev_data)
   return output;
 }
 
-Battery batt = Battery(3300, 4200, vbatt_pin);
+Battery batt = Battery(2800, 4200, vbatt_pin);
 float vv_batt;
 float lpf (float x, float y) {
-  return y + 0.03f * (x - y);
+  return y + 0.025f * (x - y);
 }
 
 // the setup function runs once when you press reset or power the board
@@ -456,7 +456,7 @@ void attitude_controller(void* pvParameters)  // This is a task.
       Ref_altitude = constrain(Ref_altitude + x2 * 5, 0, 1000);
       if (RemoteXY.joystick_1_y <= -100) Ref_altitude = 0;
       if (RemoteXY.connect_flag == 0) Ref_altitude = 0;
-      if (battery_level <= 3300) Ref_altitude = 0;
+      if (battery_level <= 3200) Ref_altitude = 0;
 
 
       high = constrain(high * cosf(filter.getRollRadians()) * cosf(filter.getPitchRadians()), 0, 1500);
